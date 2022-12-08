@@ -9,7 +9,6 @@ export default function Projects({ children }) {
         <h2>Portfolio</h2>
         <h3>Projects && Websites I've Made.</h3>
       </div>
-      {/*test*/}
     </Layout>
   );
 }
