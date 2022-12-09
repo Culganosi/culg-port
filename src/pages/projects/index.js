@@ -15,7 +15,7 @@ export default function Projects({ data }) {
         <h3>Projects && Websites I've Made.</h3>
         <div className={styles.projects}>
           {portfolioProjects.map((project) => (
-            <Link to={"/projects" + project.frontmatter.slug} key={project.id}>
+            <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
               <div>
                 <GatsbyImage
                   image={getImage(
