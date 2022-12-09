@@ -15,7 +15,11 @@ export default function Home() {
             My Projects
           </Link>
         </div>
-        <img src="/desk.png" alt="site image" style={{ maxWidth: "100%" }} />
+        <img
+          src="/desk.png"
+          alt="dashboard coder"
+          style={{ maxWidth: "100%" }}
+        />
       </section>
     </Layout>
   );
